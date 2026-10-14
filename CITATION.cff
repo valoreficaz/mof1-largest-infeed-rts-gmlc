@@ -3,6 +3,7 @@ message: "If you use this code or these results, please cite the article below."
 title: "Code and hourly results for: Curtailed for security: Inertia rules when the largest loss is a renewable plant"
 type: software
 version: "1.0.0"
+doi: "10.5281/zenodo.23376992"
 authors:
   - family-names: "Moreno-Alfonso"
     given-names: "Narciso"
@@ -29,5 +30,11 @@ preferred-citation:
       given-names: "Narciso"
       email: "narciso-ma@us.es"
       affiliation: "Departamento de Ingeniería Eléctrica, Escuela Politécnica Superior, Universidad de Sevilla"
+    - family-names: "Bachiller-Soler"
+      given-names: "Alfonso"
+      affiliation: "Universidad de Sevilla"
+    - family-names: "Bravo-Rodríguez"
+      given-names: "Juan-Carlos"
+      affiliation: "Universidad de Sevilla"
   journal: "The Electricity Journal"
   year: 2026

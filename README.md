@@ -2,7 +2,9 @@
 
 Code and hourly results for the article
 
-> N. Moreno-Alfonso, *Curtailed for security: Inertia rules when the largest loss is a renewable plant*, The Electricity Journal (submitted).
+> N. Moreno-Alfonso, A. Bachiller-Soler, J.-C. Bravo-Rodríguez, *Curtailed for security: Inertia rules when the largest loss is a renewable plant*, The Electricity Journal (submitted).
+
+Archived at Zenodo: [10.5281/zenodo.23376992](https://doi.org/10.5281/zenodo.23376992)
 
 The model is a full-year, day-ahead unit commitment of the public [RTS-GMLC](https://github.com/GridMod/RTS-GMLC) test system in which the loss of a whole wind plant is a credible event. Each case adds a frequency-security rule (none, a minimum number of large units, a cap on non-synchronous penetration, a fixed kinetic-energy floor, or a limit on the initial rate of change of frequency, RoCoF, indexed to the largest infeed of each hour) and records, hour by hour, the schedule, the synchronous kinetic energy and the initial RoCoF that the worst credible loss of that hour would cause.
 
