@@ -1,0 +1,13 @@
+# third-party data, fetched by setup.sh
+/RTS-GMLC
+/PDSA-RTS-GMLC
+# local environment
+/.venv/
+__pycache__/
+*.pyc
+# outputs of new runs and of the article scripts
+/resultados_red/
+/logs/
+/article/figs/
+/article/cifras.json
+*.ckpt

@@ -1,0 +1,166 @@
+%% Generado por cifras.py; no editar a mano.
+\newcommand{\VAffMW}{4,650}% MW de esas unidades
+\newcommand{\VAffUnits}{13}% unidades U350, U355 y U400
+\newcommand{\VBindBaseExceedPct}{99}% base: % de esas mismas horas por encima de 1 Hz/s sin regla
+\newcommand{\VBindCount}{16.1}% base: horas con menos de ocho unidades grandes
+\newcommand{\VBindCurtPct}{100}% rocof1: % de las horas activas con alguna eolica recortada mas de 1 MW
+\newcommand{\VBindIdxPct}{26.2}% rocof1: % horas con el limite activo (tasa >= 0,999 Hz/s)
+\newcommand{\VBindIdxWindPct}{99.7}% rocof1: % de esas horas con peor suceso eolico
+\newcommand{\VBindNuc}{17.3}% base: horas bajo el suelo sobre la nuclear
+\newcommand{\VBindSetterCurtPct}{99}% rocof1: % de las horas activas con peor suceso eolico en que esa planta esta recortada mas de 1 MW
+\newcommand{\VBindSnsp}{6.1}% base: horas con SNSP > 0,75
+\newcommand{\VBranches}{120}% branch.csv
+\newcommand{\VBuses}{73}% bus.csv
+\newcommand{\VClusters}{19}% gen.csv, pares (zona, grupo)
+\newcommand{\VCostBase}{477.5}% coste anual base
+\newcommand{\VCountHrsShare}{100}% muon8/base horas
+\newcommand{\VCutDaysBase}{3}% base: dias cortados por tiempo
+\newcommand{\VCutDaysFixSn}{4}% ekin25410 sin nuclear: dias cortados
+\newcommand{\VCutDaysIdx}{0}% rocof1 y ekin25410: dias cortados
+\newcommand{\VCutDaysMax}{9}% dias con hueco final > 0,5 % (limite de tiempo), maximo por caso: {'base': 3, 'rocof1': 0, 'ekin25410': 0, 'ekin13781': 9, 'muon8': 0, 'snsp75': 1, 'base_sn': 0, 'rocof1_sn': 0, 'ekin25410_sn': 4, 'ekin11661_sn': 1, 'muon8_sn': 0, 'snsp75_sn': 0}
+\newcommand{\VDCostCount}{-0.58}% muon8: coste incremental M$
+\newcommand{\VDCostCountAbs}{0.58}% muon8 |coste incremental|
+\newcommand{\VDCostFix}{62.64}% ekin25410: coste incremental M$
+\newcommand{\VDCostFixR}{62.6}% ekin25410 coste incremental, una cifra decimal
+\newcommand{\VDCostIdx}{6.45}% rocof1: coste incremental M$
+\newcommand{\VDCostNuc}{0.79}% ekin13781: coste incremental M$
+\newcommand{\VDCostPctCount}{-0.1}% muon8: % del coste base
+\newcommand{\VDCostPctFix}{13.1}% ekin25410: % del coste base
+\newcommand{\VDCostPctIdx}{1.35}% rocof1: % del coste base
+\newcommand{\VDCostPctNuc}{0.2}% ekin13781: % del coste base
+\newcommand{\VDCostPctSnsp}{0.2}% snsp75: % del coste base
+\newcommand{\VDCostSnsp}{1.14}% snsp75: coste incremental M$
+\newcommand{\VDCurtCount}{74}% muon8: recorte incremental GWh
+\newcommand{\VDCurtFix}{365}% ekin25410: recorte incremental GWh
+\newcommand{\VDCurtIdx}{366}% rocof1: recorte incremental GWh
+\newcommand{\VDCurtNuc}{64}% ekin13781: recorte incremental GWh
+\newcommand{\VDCurtPctCount}{0.6}% muon8: puntos del recurso
+\newcommand{\VDCurtPctFix}{2.8}% ekin25410: puntos del recurso
+\newcommand{\VDCurtPctIdx}{2.8}% rocof1: puntos del recurso
+\newcommand{\VDCurtPctNuc}{0.5}% ekin13781: puntos del recurso
+\newcommand{\VDCurtPctSnsp}{0.8}% snsp75: puntos del recurso
+\newcommand{\VDCurtSnsp}{105}% snsp75: recorte incremental GWh
+\newcommand{\VDEkFix}{7,867}% ekin25410: energia cinetica adicional media MW s
+\newcommand{\VDEkIdx}{1,290}% rocof1: energia cinetica adicional media MW s
+\newcommand{\VDThermFix}{387}% ekin25410: termica adicional GWh
+\newcommand{\VDThermIdx}{367}% rocof1: termica adicional GWh
+\newcommand{\VDUnitsFix}{12.1}% ekin25410: unidades adicionales acopladas, media
+\newcommand{\VDUnitsIdx}{2.4}% rocof1: unidades adicionales acopladas, media
+\newcommand{\VDays}{366}% horas/24
+\newcommand{\VDemandGWh}{37,656}% suma de demanda
+\newcommand{\VDollarFix}{171}% $ por MWh recortado, ekin25410
+\newcommand{\VDollarIdx}{18}% $ por MWh recortado, rocof1
+\newcommand{\VDpBase}{496}% base: mayor perdida media MW
+\newcommand{\VDpFix}{492}% ekin25410: mayor perdida media MW
+\newcommand{\VDpIdx}{467}% rocof1: mayor perdida media MW
+\newcommand{\VEkBigPct}{51}% U355 publicado/previsto
+\newcommand{\VEkMaxFloor}{25,410}% f0 847/2
+\newcommand{\VEkMaxFloorPct}{53}% suelo / energia de toda la flota
+\newcommand{\VEkNucFloor}{13,781}% nivel del caso resuelto ekin13781
+\newcommand{\VEkNucInt}{1,780}% unidad U400, previsto
+\newcommand{\VEkNucNeed}{13,780}% e_nuc + f0 400/2, energia que exige la perdida de la nuclear
+\newcommand{\VEkNucPct}{-0.4}% U400 publicado/previsto
+\newcommand{\VEkNucPub}{1,772}% unidad U400, publicado
+\newcommand{\VEkThermFloor}{11,661}% U355: e + f0 P/2
+\newcommand{\VEkTresCInt}{1,010}% unidad U355, previsto
+\newcommand{\VEkTresCPub}{1,527}% unidad U355, publicado
+\newcommand{\VEkTresInt}{998}% unidad U350, previsto
+\newcommand{\VEkTresPub}{1,509}% unidad U350, publicado
+\newcommand{\VEkUnoInt}{691}% unidad U155, previsto
+\newcommand{\VEkUnoPub}{691}% unidad U155, publicado
+\newcommand{\VErrCostGap}{0.82}% diferencia de coste entre datos
+\newcommand{\VErrDCost}{5.63}% coste incremental con datos publicados
+\newcommand{\VErrDCurt}{351}% recorte incremental con datos publicados
+\newcommand{\VErrHrs}{2,020}% rocof1 resuelto con datos publicados: horas > 1 Hz/s con los previstos
+\newcommand{\VErrHrsPct}{23.0}% id. en %
+\newcommand{\VErrMax}{0.165}% exceso maximo Hz/s
+\newcommand{\VErrMean}{0.045}% exceso medio Hz/s
+\newcommand{\VFixRocofMax}{0.945}% ekin25410: tasa maxima Hz/s
+\newcommand{\VFixSlackHrs}{9}% ekin25410: horas con holgura del suelo
+\newcommand{\VFixSlackMax}{52}% ekin25410: holgura maxima MW s
+\newcommand{\VFleetEkInt}{48,238}% H previsto x |Pmax+jQmax|, flota sincrona completa
+\newcommand{\VFleetEkPct}{12.8}% cociente publicado/previsto
+\newcommand{\VFleetEkPub}{54,422}% H publicado x |Pmax+jQmax|
+\newcommand{\VFzero}{60}% uc_mof1_red.py F0
+\newcommand{\VGBNeedGVAs}{90}% GB: 50 x 1800 / (2 x 0,5) / 1000
+\newcommand{\VGapFine}{0.1}% hueco de la comprobacion
+\newcommand{\VGapPct}{0.5}% uc_mof1_red.py GAP
+\newcommand{\VGapRuleSentence}{Re-solved with the narrower gap, with and without the nuclear unit, the additional cost of the two rules that secure every hour changes by at most 0.3~M\$ and the ratio of their costs is 9.3 to 9.4.}% texto
+\newcommand{\VHFeight}{3.96}% F8: 634 MW s / 160 MVA
+\newcommand{\VHFthirteen}{2.62}% F13
+\newcommand{\VHNthree}{3.98}% N3
+\newcommand{\VHminMinMW}{15}% minimo hidraulico de la sensibilidad (caso _hmin)
+\newcommand{\VHorizon}{36}% uc_mof1_red.py TH
+\newcommand{\VHours}{8,784}% filas
+\newcommand{\VHrsBase}{31.1}% base: % horas > 1 Hz/s
+\newcommand{\VHrsCount}{31.1}% muon8: % horas > 1 Hz/s
+\newcommand{\VHrsFix}{0.0}% ekin25410: % horas > 1 Hz/s
+\newcommand{\VHrsIdx}{0.0}% rocof1: % horas > 1 Hz/s
+\newcommand{\VHrsNuc}{28.6}% ekin13781: % horas > 1 Hz/s
+\newcommand{\VHrsSnsp}{31.4}% snsp75: % horas > 1 Hz/s
+\newcommand{\VHydroEk}{3,267}% hidraulicas U50
+\newcommand{\VHydroMW}{1,000}% gen.csv U50
+\newcommand{\VHydroOnMin}{20}% hidraulicas acopladas, minimo en todas las horas de todos los casos
+\newcommand{\VHydroUnits}{20}% gen.csv U50
+\newcommand{\VIrlCoverMW}{920}% Irlanda: 2 x 1 Hz/s x 23 000 MW s / 50 Hz
+\newcommand{\VLostIdx}{2.83}% rocof1: renovable perdida, puntos (resumen_v5)
+\newcommand{\VLostIdxHmin}{3.62}% rocof1 con minimo hidraulico: puntos (resumen_v5)
+\newcommand{\VMaxInfeed}{799.1}% mayor perdida del ano, base
+\newcommand{\VNotShareFix}{60}% ekin25410: % del recorte incremental fuera de las plantas que fijan el suceso
+\newcommand{\VNucMW}{400}% gen.csv U400
+\newcommand{\VNucOffHrs}{0}% horas con la nuclear desacoplada, nuclibre
+\newcommand{\VNucStarts}{0}% arranques de la nuclear, nuclibre
+\newcommand{\VPeakMW}{8,192}% maximo de demanda
+\newcommand{\VRatio}{9.7}% cociente ekin25410/rocof1
+\newcommand{\VResCost}{0.4}% max |dif. de coste| hueco 0,5 % frente a 0,1 %, cuatro casos
+\newcommand{\VResCurt}{3}% max |dif. de recorte| GWh, id.
+\newcommand{\VResIdxFix}{0.3}% rocof1 y ekin25410 con hueco 0,1 %, con y sin nuclear: max |dif. de coste incremental|
+\newcommand{\VResRatioMax}{9.4}% id., maximo
+\newcommand{\VResRatioMin}{9.3}% cociente ekin25410/rocof1 con hueco 0,1 %, minimo de con y sin nuclear
+\newcommand{\VResShortMWh}{97}% falta de reserva maxima, MWh/ano
+\newcommand{\VRestFix}{215}% ekin25410: recorte incremental fuera de las eolicas (solar)
+\newcommand{\VRestIdx}{15}% rocof1: recorte incremental fuera de las eolicas (solar)
+\newcommand{\VSaveIdx}{56}% ahorro del limite indexado frente al suelo fijo, M$/ano
+\newcommand{\VSavePctIdx}{12}% id., % del coste base
+\newcommand{\VShareFix}{40}% ekin25410: % del recorte incremental en las tres grandes
+\newcommand{\VShareIdx}{96}% rocof1: % del recorte incremental en las tres grandes
+\newcommand{\VShedMWh}{0}% deslastre maximo de todos los casos
+\newcommand{\VSnDCostCount}{-0.22}% sin nuclear muon8: coste incremental M$
+\newcommand{\VSnDCostCountAbs}{0.22}% sin nuclear muon8 |coste incremental|
+\newcommand{\VSnDCostFix}{64.32}% sin nuclear ekin25410: coste incremental M$
+\newcommand{\VSnDCostIdx}{7.06}% sin nuclear rocof1: coste incremental M$
+\newcommand{\VSnDCostSnsp}{3.23}% sin nuclear snsp75: coste incremental M$
+\newcommand{\VSnDCostTherm}{0.40}% sin nuclear ekin11661: coste incremental M$
+\newcommand{\VSnDCurtCount}{52}% sin nuclear muon8: recorte incremental GWh
+\newcommand{\VSnDCurtFix}{268}% sin nuclear ekin25410: recorte incremental GWh
+\newcommand{\VSnDCurtIdx}{338}% sin nuclear rocof1: recorte incremental GWh
+\newcommand{\VSnDCurtSnsp}{196}% sin nuclear snsp75: recorte incremental GWh
+\newcommand{\VSnDCurtTherm}{16}% sin nuclear ekin11661: recorte incremental GWh
+\newcommand{\VSnEkMin}{8,040}% sin nuclear: energia cinetica minima de base
+\newcommand{\VSnHrsBase}{30.5}% sin nuclear base: % horas > 1 Hz/s
+\newcommand{\VSnHrsCount}{30.2}% sin nuclear muon8: % horas > 1 Hz/s
+\newcommand{\VSnHrsFix}{0.0}% sin nuclear ekin25410: % horas > 1 Hz/s
+\newcommand{\VSnHrsIdx}{0.0}% sin nuclear rocof1: % horas > 1 Hz/s
+\newcommand{\VSnHrsSnsp}{29.9}% sin nuclear snsp75: % horas > 1 Hz/s
+\newcommand{\VSnHrsTherm}{29.9}% sin nuclear ekin11661: % horas > 1 Hz/s
+\newcommand{\VSnRatio}{9.1}% sin nuclear: cociente
+\newcommand{\VSnRestFix}{+144.1}% sin nuclear ekin25410: recorte incremental fuera de las eolicas
+\newcommand{\VSnRestIdx}{$-$14.4}% sin nuclear rocof1: recorte incremental fuera de las eolicas
+\newcommand{\VSnShareFix}{45}% sin nuclear ekin25410: % en las tres grandes
+\newcommand{\VSnShareIdx}{104}% sin nuclear rocof1: % en las tres grandes
+\newcommand{\VSnThermActs}{6.9}% sin nuclear: horas de base bajo el suelo de la mayor termica
+\newcommand{\VSnWindWorstPct}{46.6}% sin nuclear: peor candidato eolico
+\newcommand{\VSyncCond}{3}% gen.csv Sync_Cond
+\newcommand{\VThermalMW}{8,076}% gen.csv
+\newcommand{\VThermalUnits}{73}% gen.csv, unidades CC, CT, STEAM y NUCLEAR
+\newcommand{\VThreshExtra}{59}% 2 R e_nuc / f0: margen sobre la perdida de calibracion
+\newcommand{\VTlim}{120}% uc_mof1_red.py TLIM
+\newcommand{\VVreGWh}{13,049}% eolica y solar disponible
+\newcommand{\VVrePct}{34.7}% disponible/demanda
+\newcommand{\VWindA}{847.0}% gen.csv PMax de 303_WIND_1
+\newcommand{\VWindB}{799.1}% gen.csv PMax de 317_WIND_1
+\newcommand{\VWindC}{713.5}% gen.csv PMax de 122_WIND_1
+\newcommand{\VWindD}{148.3}% gen.csv PMax de 309_WIND_1
+\newcommand{\VWindLargestPct}{44.5}% horas con la mayor eolica servida > nuclear, base
+\newcommand{\VWindThreshold}{459}% produccion eolica que exige mas energia que la perdida de la nuclear
+\newcommand{\VWindWorstPct}{41.0}% horas con peor candidato eolico, base

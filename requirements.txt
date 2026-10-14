@@ -1,0 +1,7 @@
+# Python 3.12.3. Versions used for the published results (Ubuntu 24.04 system packages give the
+# same versions: python3-scipy 1.11.4, python3-numpy 1.26.4, python3-pandas 2.1.4).
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.1.4
+# figures only (the published figures were drawn with 3.6.3; 3.8.4 has wheels for Python 3.12)
+matplotlib==3.8.4

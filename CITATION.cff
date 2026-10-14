@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article below."
+title: "Code and hourly results for: Curtailed for security: Inertia rules when the largest loss is a renewable plant"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Moreno-Alfonso"
+    given-names: "Narciso"
+    email: "narciso-ma@us.es"
+    affiliation: "Departamento de Ingeniería Eléctrica, Escuela Politécnica Superior, Universidad de Sevilla"
+repository-code: "https://github.com/valoreficaz/mof1-largest-infeed-rts-gmlc"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - frequency security
+  - inertia
+  - largest infeed
+  - RoCoF
+  - renewable curtailment
+  - unit commitment
+  - RTS-GMLC
+preferred-citation:
+  type: article
+  status: submitted
+  title: "Curtailed for security: Inertia rules when the largest loss is a renewable plant"
+  authors:
+    - family-names: "Moreno-Alfonso"
+      given-names: "Narciso"
+      email: "narciso-ma@us.es"
+      affiliation: "Departamento de Ingeniería Eléctrica, Escuela Politécnica Superior, Universidad de Sevilla"
+  journal: "The Electricity Journal"
+  year: 2026
