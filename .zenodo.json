@@ -1,0 +1,15 @@
+{
+  "title": "Code and hourly results for: Curtailed for security: Inertia rules when the largest loss is a renewable plant",
+  "upload_type": "software",
+  "description": "<p>Code and hourly results of a full-year, day-ahead unit commitment of the RTS-GMLC test system in which the loss of a whole wind plant is a credible event, used in the article <em>Curtailed for security: Inertia rules when the largest loss is a renewable plant</em> (The Electricity Journal, submitted). The code is licensed under MIT; the results and derived data are licensed under CC BY 4.0 (see LICENSE-data).</p>",
+  "creators": [
+    {
+      "name": "Moreno-Alfonso, Narciso",
+      "affiliation": "Departamento de Ingeniería Eléctrica, Escuela Politécnica Superior, Universidad de Sevilla"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["frequency security", "inertia", "largest infeed", "RoCoF", "renewable curtailment", "unit commitment", "RTS-GMLC"],
+  "language": "eng"
+}
